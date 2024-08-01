@@ -82,7 +82,9 @@ print(objects)
 - 物件偵測與後處理。
 - 計數邏輯與資料儲存。
 - MQTT 連線與資料回傳。
-- 
+
+![image](https://github.com/willy3368/Smart-AIoT-Devices-for-Entrance-People-Counting/blob/main/img/ae6c70ba-8e3a-4768-a5b6-de4d78b921dd.gif)
+  
 ### 實際架設使用方式如下
 
 ![image](https://github.com/willy3368/Smart-AIoT-Devices-for-Entrance-People-Counting/blob/main/img/%E6%9E%B6%E6%A7%8B%E5%9C%96.png)
