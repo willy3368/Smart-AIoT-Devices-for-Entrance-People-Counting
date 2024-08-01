@@ -1,10 +1,12 @@
 # Smart-AIoT-Devices-for-Entrance-People-Counting
 
-
 # 人流計數系統 (People Counting System)
 
 ## 介紹
 這是一個人流計數的程式，旨在計算特定區域內進出人數。此系統設計可運行於邊緣運算裝置如 NVIDIA Jetson Nano 上，利用 OpenCV 進行影像處理，並使用深度學習模型 YOLOv4-tiny 來偵測和追蹤物件。此系統還結合了 MQTT 通訊協定，用於數據傳輸和遠端監控。
+
+下圖為整體架構
+![image](https://github.com/willy3368/Smart-AIoT-Devices-for-Entrance-People-Counting/blob/main/img/%E6%9E%B6%E6%A7%8B%E5%9C%96.png)
 
 ## 系統架構
 整個系統包含兩個主要部分：
@@ -79,6 +81,9 @@ print(objects)
 - 物件偵測與後處理。
 - 計數邏輯與資料儲存。
 - MQTT 連線與資料回傳。
+
+實際架設使用方式如下
+![image](https://github.com/willy3368/Smart-AIoT-Devices-for-Entrance-People-Counting/blob/main/img/%E6%9E%B6%E6%A7%8B%E5%9C%96.png)
 
 ## 注意事項
 - 確保攝影機或影片來源的解析度與設定相符，以獲得最佳效果。
